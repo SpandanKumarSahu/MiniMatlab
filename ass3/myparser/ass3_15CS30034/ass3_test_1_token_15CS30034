@@ -1,0 +1,334 @@
+Keyword		void
+Identifier	keywords_and_op_check
+Punctuator	(
+Punctuator	)
+Punctuator	{
+
+
+Keyword		unsigned
+Keyword		int
+Identifier	num
+Punctuator	=
+Constant	10
+Punctuator	;
+
+Keyword		signed
+Keyword		int
+Identifier	i
+Punctuator	;
+
+Keyword		Bool
+Identifier	B
+Punctuator	=
+Constant	1
+Punctuator	;
+
+
+
+Keyword		char
+Punctuator	*
+Identifier	s1
+Punctuator	=
+Constant	'comp'
+Punctuator	;
+
+Keyword		char
+Punctuator	*
+Identifier	s2
+Punctuator	=
+String literal	"parse"
+Punctuator	;
+
+
+Keyword		switch
+Punctuator	(
+Identifier	x
+Punctuator	)
+Punctuator	{
+
+Keyword		case
+Constant	1
+Punctuator	:
+
+Identifier	a
+Punctuator	=
+Constant	1
+Punctuator	;
+
+Keyword		break
+Punctuator	;
+
+Keyword		case
+Constant	2
+Punctuator	:
+
+Identifier	a
+Punctuator	=
+Constant	2
+Punctuator	;
+
+Keyword		break
+Punctuator	;
+
+Keyword		case
+Constant	3
+Punctuator	:
+
+Identifier	a
+Punctuator	=
+Constant	3
+Punctuator	;
+
+Keyword		break
+Punctuator	;
+
+Keyword		default
+Punctuator	:
+
+Identifier	a
+Punctuator	=
+Constant	1
+Punctuator	;
+
+Punctuator	}
+
+
+Keyword		float
+Identifier	f1
+Punctuator	=
+Constant	1.2e3
+Punctuator	;
+
+Keyword		float
+Identifier	f2
+Punctuator	=
+Punctuator	-
+Constant	2E-2
+Punctuator	;
+
+
+Keyword		short
+Keyword		int
+Identifier	d
+Punctuator	=
+Constant	4
+Punctuator	;
+
+
+Keyword		char
+Identifier	c_c
+Punctuator	=
+Constant	'a'
+Punctuator	;
+
+
+Keyword		for
+Punctuator	(
+Identifier	i
+Punctuator	=
+Constant	1
+Punctuator	;
+
+Punctuator	(
+Identifier	i
+Punctuator	<
+Identifier	num
+Punctuator	)
+Punctuator	&&
+Punctuator	(
+Identifier	num
+Punctuator	!=
+Constant	1
+Punctuator	)
+Punctuator	;
+Punctuator	++
+Identifier	i
+Punctuator	)
+Punctuator	{
+
+Identifier	A
+Punctuator	[
+Identifier	i
+Punctuator	]
+Punctuator	=
+Identifier	i
+Punctuator	;
+
+Keyword		if
+Punctuator	(
+Identifier	i
+Punctuator	>=
+Constant	1
+Punctuator	)
+
+Keyword		continue
+Punctuator	;
+
+Keyword		else
+
+Keyword		break
+Punctuator	;
+
+Punctuator	}
+
+
+Keyword		for
+Punctuator	(
+Punctuator	;
+Punctuator	;
+Punctuator	)
+Punctuator	{
+
+Identifier	b
+Punctuator	=
+Constant	5
+Punctuator	;
+
+Punctuator	}
+
+
+Keyword		if
+Punctuator	(
+Identifier	i
+Punctuator	==
+Constant	9
+Punctuator	)
+
+Identifier	i
+Punctuator	=
+Identifier	i
+Punctuator	%
+Constant	11
+Punctuator	;
+
+Keyword		else
+Keyword		if
+Punctuator	(
+Identifier	i
+Punctuator	>=
+Constant	11
+Punctuator	)
+
+Identifier	i
+Punctuator	%=
+Constant	5
+Punctuator	;
+
+
+Identifier	i
+Punctuator	=
+Identifier	num
+Punctuator	-
+Identifier	i
+Punctuator	;
+
+Keyword		do
+Punctuator	{
+
+Identifier	a
+Punctuator	++
+Punctuator	;
+
+Identifier	b
+Punctuator	--
+Punctuator	;
+
+Identifier	c
+Punctuator	+=
+Identifier	a
+Punctuator	;
+
+Identifier	i
+Punctuator	--
+Punctuator	;
+
+Punctuator	}
+Keyword		while
+Punctuator	(
+Identifier	i
+Punctuator	!=
+Constant	1
+Punctuator	||
+Punctuator	(
+Identifier	num
+Punctuator	!=
+Constant	1
+Punctuator	)
+Punctuator	)
+Punctuator	;
+
+
+Identifier	a
+Punctuator	=
+Identifier	b
+Punctuator	+
+Identifier	c
+Punctuator	;
+
+Identifier	b
+Punctuator	=
+Identifier	c
+Punctuator	*
+Identifier	a
+Punctuator	;
+
+Identifier	c
+Punctuator	=
+Identifier	a
+Punctuator	/
+Identifier	b
+Punctuator	;
+
+Identifier	a
+Punctuator	=
+Identifier	c
+Punctuator	/
+Constant	2
+Punctuator	;
+
+
+Identifier	b
+Punctuator	-=
+Constant	5
+Punctuator	;
+
+Identifier	c
+Punctuator	/=
+Constant	10
+Punctuator	;
+
+
+Identifier	c
+Punctuator	=
+Identifier	c
+Punctuator	^
+Identifier	b
+Punctuator	;
+
+Identifier	b
+Punctuator	=
+Identifier	b
+Punctuator	|
+Identifier	d
+Punctuator	;
+
+Identifier	a
+Punctuator	^=
+Identifier	d
+Punctuator	;
+
+Identifier	c
+Punctuator	|=
+Identifier	d
+Punctuator	;
+
+Identifier	b
+Punctuator	&=
+Identifier	d
+Punctuator	;
+
+Keyword		return
+Punctuator	;
+
+Punctuator	}
+
